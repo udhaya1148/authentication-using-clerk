@@ -36,7 +36,7 @@ function App() {
         />
 
         <Route
-          path="/sign-up"
+          path="/sign-up/*"
           element={
             <div className="min-h-screen flex items-center justify-center bg-gray-100">
               <SignUp
